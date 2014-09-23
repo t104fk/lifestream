@@ -1,0 +1,19 @@
+{
+  "run_list": [
+    "recipe[git]",
+    "recipe[rbenv-ruby]",
+    "recipe[java]",
+    "recipe[jenkins::master]"
+  ],
+  "automatic": {
+    "ipaddress": "toyo-build01"
+  },
+  "java": {
+    "install_flavor": "oracle",
+    "jdk_version": 7,
+    "java_home": "/usr/local/java",
+    "oracle" : {
+      "accept_oracle_download_terms": true
+    }
+  }
+}

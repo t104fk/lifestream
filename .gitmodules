@@ -1,0 +1,6 @@
+[submodule "site-cookbooks/jenkins"]
+	path = site-cookbooks/jenkins
+	url = git@github.com:opscode-cookbooks/jenkins.git
+[submodule "site-cookbooks/java"]
+	path = site-cookbooks/java
+	url = https://github.com/opscode-cookbooks/java
