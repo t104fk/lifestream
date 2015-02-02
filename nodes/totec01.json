@@ -2,9 +2,10 @@
   "run_list": [
     "recipe[git]",
     "recipe[rbenv-ruby]",
-    "recipe[mysql]"
+    "recipe[nginx]",
+    "recipe[totec01]"
   ],
   "automatic": {
-    "ipaddress": "toyo-app01"
+    "ipaddress": "totec01"
   }
 }

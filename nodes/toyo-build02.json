@@ -4,11 +4,13 @@
     "recipe[rbenv-ruby]",
     "recipe[java]",
     "recipe[jenkins::master]",
+    "recipe[jenkins-key]",
     "recipe[toyo-build01]",
-    "recipe[sudo]"
+    "recipe[sudo]",
+    "recipe[ssh-key]"
   ],
   "automatic": {
-    "ipaddress": "toyo-build01"
+    "ipaddress": "toyo-build02"
   },
   "java": {
     "install_flavor": "oracle",
